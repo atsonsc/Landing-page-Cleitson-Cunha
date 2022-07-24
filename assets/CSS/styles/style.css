@@ -1,0 +1,15 @@
+:root{
+    --cor-de-fundo:#222831;
+    --cor-de-fundo-secundaria: #393E46;
+    --azul:#00ADB5;
+    --branco-fosco:#EEEEEE;
+    --fonte-principal:'Montserrat', sans-serif;
+    --fonte-secundaria:'Oswald', sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    
+}
