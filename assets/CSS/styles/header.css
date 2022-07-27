@@ -3,6 +3,7 @@
     /*background-color: var(--cor-de-fundo-secundaria);*/
     display: flex;
     align-items: center;
+    grid-area: "cabecalho";
     justify-content: space-between;
     padding: 1rem 2rem;
     
@@ -13,6 +14,11 @@
     font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
+}
+.cabecalho img{
+    width: 30px;
+    margin-left: 1rem;
+    position: absolute;
 }
 #btn__mobile{
     display: none;

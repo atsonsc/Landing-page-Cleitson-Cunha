@@ -10,13 +10,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Oswald:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+
     <link rel="stylesheet" href="./CSS/styles/style.css">
     <link rel="stylesheet" href="./CSS/styles/header.css">
     <link rel="stylesheet" href="./CSS/main.css">
     <link rel="stylesheet" href="./CSS/sobre.css">
     <link rel="stylesheet" href="./CSS/cards.css">
+    <link rel="stylesheet" href="./CSS/destaques.css">
+    <link rel="stylesheet" href="./CSS/styles/rodape.css">
 
     <title>Cleitson Cunha</title>
 </head>
@@ -24,8 +27,9 @@
 
 <body>
     <header class="cabecalho">
+        <div>
         <a href="#" class="cabecalho__logo">Cleitson Cunha</a>
-
+         </div>
         <nav class="navegacao" id="nav">
             <button id="btn__mobile">Menu</button>
             <ul class="navegacao__menu">
@@ -38,14 +42,14 @@
 
 
     </header>
-    <main>
+    <main class="conteudo">
         <section class="row">
             <div class="col__1">
                 <h3>Olá,</h3>
                 <h2>Me chamo Cleitson Cunha</h2>
                 <p> Fotografo profissional, responsável por eternizar momentos em cliques e lentes e contar histórias
                     através de álbuns.</p>
-                <button class="btn__contact">Contact-me</button>
+                <button class="signUp">Contact-me</button>
 
             </div>
             <div class="col__2">
@@ -76,40 +80,95 @@
 
         <section class="cards">
             <h2 class="cards__titulo">Minhas especialidades</h2>
-            <div class="cards__container">
+            <div class="card__container">
                 <div class="card">
                     <div class="card__container--imagem">
-                        <img src="./IMG/4738.jpg" alt="Imagem de uma camera fotografica">
+                        <img src="./IMG/camera-fotografica.png" alt="Imagem de uma camera fotografica" height="150px">
                     </div>
                     <div class="card__conteudo">
-                        <h3 class="card__titulo"></h3>
-                        <p class="card__descricao"></p>
+                        <h3 class="card__titulo">Titulo do card</h3>
+                        <p class="card__descricao">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__container--imagem">
+                        <img src="./IMG/idosos-olhando-album-de-familia.jpg" alt="fotografia de casal de idosos olhando o seu álbum de familia">
+                    </div>
+                    <div class="card__conteudo">
+                        <h3 class="card__titulo">Titulo do card</h3>
+                        <p class="card__descricao">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__container--imagem">
+                        <img src="./IMG/troca-de-aliancas.png" alt="casal trocando alianças">
+                    </div>
+                    <div class="card__conteudo">
+                        <h3 class="card__titulo">Titulo do card</h3>
+                        <p class="card__descricao">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card__imagem">
-                        <img src="" alt="">
-                    </div>
-                    <div class="card__conteudo">
-                        <h3 class="card__titulo"></h3>
-                        <p class="card__descricao"></p>
-                    </div>
+
+            </div>
+
+        </section>
+        <section class="destaques">
+            <h2 class="destaques__titulo">Fotos em destaque</h2>
+            <div class="destaques__container">
+                <div class="destaques__container--1 gap">
+
+                </div>
+                <div class="destaques__container--2 gap">
+
+                </div>
+                <div class="destaques__container--3 gap">
+
+                </div>
+                <div class="destaques__container--4 gap">
+
+                </div>
+                <div class="destaques__container--5 gap">
+
+                </div>
+                <div class="destaques__container--6 gap">
+
+                </div>
+                <div class="destaques__container--7 gap">
+
+                </div>
+                <div class="destaques__container--8 gap">
+
                 </div>
 
-                <div class="card">
-                    <div class="card__imagem">
-                        <img src="" alt="">
-                    </div>
-                    <div class="card__conteudo">
-                        <h3 class="card__titulo"></h3>
-                        <p class="card__descricao"></p>
-                    </div>
-                </div>
             </div>
         </section>
 
     </main>
+    <footer class="rodape">
+        <div class="rodape__container">
+            <h3 class="rodape__titulo">Receba as novidades</h3>
+            <p class="rodape__texto">Cadastre o seu e-mail e veja o que rola nos nossos ensaios.</p>
+            <div class="rodape__formulario">
+                <form>
+                    <input type="email" placeholder="Seu e-mail">
+                    <button class="signUp">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="social__midia">
+            <ul class="social__midia--lista">
+                <li><a href="#"  class="social__midia--link"><img src="./IMG/whatsaap_icon-2.png" alt="Logotipo do whatsapp" class="social__midia--logo"></a></li>
+                <li><a href="#"  class="social__midia--link"><img src="./IMG/logo-insta.png" alt="Logotipo do instagram"  class="social__midia--logo  social__midia--instagram"></a></li>
+                <li><a href="#"  class="social__midia--link"><img src="./IMG/facebook.png" alt="Logotipo do facebook"  class="social__midia--logo"></a></li>
+            </ul>
+
+        </div>
+       
+    </footer>
 
     <script src="./main.js"></script>
 </body>

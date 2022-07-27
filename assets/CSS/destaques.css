@@ -1,0 +1,105 @@
+.destaques{
+    background-color: var(--cor-de-fundo-secundaria);
+    height: auto;
+}
+.destaques__titulo{
+    color: var(--azul);
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1.5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.destaques__container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+ 
+    background-color: var(--azul);
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.destaques__container--1{
+    background-image: url(/assets/IMG/img__site/foto__mosaico.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+    
+    
+}
+
+.destaques__container--2{
+    background-image: url(/assets/IMG/img__site/foto__rainhas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    
+}
+.destaques__container--3{
+    background-image: url(/assets/IMG/img__site/foto1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    
+}
+
+.destaques__container--4{
+    background-image: url(/assets/IMG/img__site/foto__secundaria2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.destaques__container--5{
+    background-image: url(/assets/IMG/img__site/casal__apaixonado__2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}   
+
+.destaques__container--6{
+    background-image: url(/assets/IMG/img__site/casal__ponte.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.destaques__container--7{
+background-image: url(/assets/IMG/img__site/garoto__sorridente.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.destaques__container--8{
+    background-image: url(/assets/IMG/img__site/foto__salto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gap{
+    border-radius: 5px;
+    margin: 0.3rem;
+}
